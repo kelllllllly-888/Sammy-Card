@@ -28,13 +28,14 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: #0f0f0f; /* 黑色背景 */
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
   padding: 24px;
   box-sizing: border-box;
   backface-visibility: hidden;
   text-align: center;
+  color: #d4af37; /* 金色字体 */
 }
 
 .back {
@@ -44,41 +45,47 @@ body {
 h1 {
   margin: 0;
   font-size: 20px;
+  color: #d4af37; /* 主金色 */
 }
 
 .sub {
-  color: #f57c00;
+  color: #b8962e; /* 次金色 */
   margin-bottom: 16px;
 }
 
 h2 {
   margin: 16px 0 4px;
+  color: #f5e6a8; /* 亮金色 */
 }
 
 .title {
-  color: #555;
+  color: #c9b46a;
   margin-bottom: 12px;
 }
 
 .info {
   font-size: 14px;
   margin: 6px 0;
+  color: #e0d8b0;
 }
+
 
 a {
   display: block;
   margin: 10px 0;
-  color: #1565c0;
+  color: #f5e6a8;
   text-decoration: none;
   font-weight: bold;
 }
 
+
 button {
   margin-top: 16px;
   padding: 8px 16px;
-  border: none;
+  border: 1px solid #d4af37;
   border-radius: 20px;
-  background: #1565c0;
-  color: white;
+  background: transparent;
+  color: #d4af37;
   cursor: pointer;
 }
+
